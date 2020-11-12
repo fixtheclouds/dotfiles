@@ -1,0 +1,8 @@
+[user]
+	email = unsaidxpl@gmail.com
+	name = Egor Romanov
+[credential]
+	helper = store
+[core]
+	editor = nano
+	autocrlf = false
