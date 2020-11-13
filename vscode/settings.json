@@ -1,0 +1,24 @@
+{
+    "ruby.format": "rubocop",
+    "ruby.intellisense": "rubyLocate",
+    "ruby.codeCompletion": "rcodetools",
+    "window.title": "${dirty}${activeEditorMedium}${separator}${rootName}${separator}${appName}",
+    "terminal.integrated.shell.linux": "/usr/local/bin/bash-login",
+    "files.trimTrailingWhitespace": true,
+    "workbench.iconTheme": "eq-material-theme-icons-ocean",
+    "workbench.colorTheme": "Material Theme Ocean",
+    "editor.renderControlCharacters": false,
+    "workbench.activityBar.visible": true,
+    "git.autofetch": true,
+    "editor.tabSize": 2,
+    "files.insertFinalNewline": true,
+    "files.trimFinalNewlines": true,
+    "sync.gist": "83afa88a0149d253f1e768193cab610d",
+    "window.zoomLevel": 0,
+    "ruby.lint": {
+        "reek": true,
+        "rubocop": true
+    },
+    "files.autoSave": "afterDelay",
+    "git.enableSmartCommit": true
+}
