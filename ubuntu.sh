@@ -1,6 +1,7 @@
 #!/bin/bash
 
 installZsh() {
+	sudo apt install zsh
   curl -L http://install.ohmyz.sh | sh
   chsh -s /bin/zsh
 
@@ -23,7 +24,7 @@ installAsdf() {
 	echo '. $HOME/.asdf/asdf.sh' >> ~/.zshrc
 	source ~/.zshrc
 
-	sudo apt-get install -y curl wget build-essential autoconf unzip libssl-dev\
+	sudo apt install -y curl wget build-essential autoconf unzip libssl-dev\
                           libncurses5-dev libreadline-dev zlib1g-dev libsqlite3-dev \
                           inotify-tools pkg-config
 
@@ -38,7 +39,7 @@ installAsdf() {
 	asdf plugin-add crystal
 }
 
-installZsh;
-setupGit;
-setupNano;
-installAsdf;
+installZsh
+setupGit
+setupNano
+installAsdf
