@@ -27,13 +27,15 @@ installAsdf() {
                           libncurses5-dev libreadline-dev zlib1g-dev libsqlite3-dev \
                           inotify-tools pkg-config
 
-	source $HOME/.asdf/asdf.sh;
+	source $HOME/.asdf/asdf.sh
 
-	asdf plugin-add ruby https://github.com/asdf-vm/asdf-ruby.git;
-	asdf plugin-add nodejs https://github.com/asdf-vm/asdf-nodejs.git;
+	asdf plugin-add ruby
+	asdf plugin-add nodejs
 	zsh ~/.asdf/plugins/nodejs/bin/import-release-team-keyring;
-	asdf plugin-add erlang https://github.com/asdf-vm/asdf-erlang.git;
-	asdf plugin-add elixir https://github.com/asdf-vm/asdf-elixir.git;
+	asdf plugin-add erlang
+	asdf plugin-add elixir
+	asdf plugin-add golang
+	asdf plugin-add crystal
 }
 
 installZsh;
